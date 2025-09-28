@@ -16,7 +16,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header className="site-logo">
+          <a href="/" aria-label="Lampoon Home">
+            <img src="/41jz38hqDRL.png" alt="Lampoon logo" />
+          </a>
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
