@@ -62,6 +62,12 @@ export default function App() {
 
   return (
     <main>
+      <div className="responsibility-banner">Lampoon XYZ is responsible for this site.</div>
+      <nav style={{ marginBottom: 20 }}>
+        <a href="/about" style={{
+          background: '#000', color: '#ffd600', padding: '8px 14px', borderRadius: 8, fontWeight: 600, textDecoration: 'none', boxShadow: '0 2px 6px rgba(0,0,0,.3)'
+        }}>About / Contact</a>
+      </nav>
       <h1>Lampoon.xyz - Satire is American.</h1>
       <h2>Under Construction please excuse our mess</h2>
       {!amplifyReady && (

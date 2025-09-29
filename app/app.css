@@ -78,3 +78,26 @@ body {
     width: auto;
     display: block;
   }
+
+  /* Responsibility banner */
+  .responsibility-banner {
+    background: #000;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.35);
+    margin: 0 0 20px 0;
+    letter-spacing: .5px;
+    outline: 3px solid #ffd600;
+  }
+
+  @media (max-width: 600px) {
+    .responsibility-banner {
+      font-size: 1rem;
+      padding: 10px 14px;
+      border-radius: 8px;
+    }
+  }
